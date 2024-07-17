@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.cse.oop.courseprojects._2110657_2010677_2221555_1722112_group08_apbn.LoginSceneWillBeDoneByIfsiaController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cse.oop.courseprojects._2110657_2010677_2221555_1722112_group08_apbn.LoginSceneWillBeDoneByIfsiaController">
+   <children>
+      <TextField fx:id="userIDTextFieldLoginScene" layoutX="218.0" layoutY="80.0" />
+      <TextField fx:id="passwordTextFieldLoginScene" layoutX="219.0" layoutY="143.0" />
+      <Label layoutX="88.0" layoutY="84.0" text="User ID" />
+      <Label layoutX="88.0" layoutY="147.0" text="Password" />
+      <Button layoutX="267.0" layoutY="215.0" mnemonicParsing="false" onAction="#loginButtonOncClickLoginScene" text="login" />
+   </children>
 </AnchorPane>
