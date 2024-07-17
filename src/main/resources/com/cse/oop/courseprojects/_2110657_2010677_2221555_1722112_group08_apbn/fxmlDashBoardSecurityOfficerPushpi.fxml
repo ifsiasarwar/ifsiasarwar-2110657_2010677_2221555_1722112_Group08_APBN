@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cse.oop.courseprojects._2110657_2010677_2221555_1722112_group08_apbn.FxmlDashBoardSecurityOfficerPushpi">
+   <children>
+      <Button layoutX="22.0" layoutY="28.0" mnemonicParsing="false" text="authorization" />
+      <Button layoutX="147.0" layoutY="28.0" mnemonicParsing="false" text="Duties" />
+      <Button layoutX="39.0" layoutY="93.0" mnemonicParsing="false" text="passenger history" />
+      <Button layoutX="228.0" layoutY="28.0" mnemonicParsing="false" text="Contact Information" />
+      <Button layoutX="238.0" layoutY="93.0" mnemonicParsing="false" text="Add lost item" />
+      <Button layoutX="359.0" layoutY="80.0" mnemonicParsing="false" text="report write" />
+      <Button layoutX="68.0" layoutY="139.0" mnemonicParsing="false" text="security equipment check" />
+   </children>
+</AnchorPane>
