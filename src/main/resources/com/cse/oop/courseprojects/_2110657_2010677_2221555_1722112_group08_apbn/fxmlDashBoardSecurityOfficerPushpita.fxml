@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cse.oop.courseprojects._2110657_2010677_2221555_1722112_group08_apbn.fxmlDashBoardSecurityOfficerPushpiController">
+   <left>
+      <VBox alignment="CENTER" prefHeight="456.0" prefWidth="174.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#authorizationButtonOnAction" prefHeight="41.0" prefWidth="179.0" text="Authorization" />
+            <Button mnemonicParsing="false" onAction="#dutiesListButtonOnAction" prefHeight="41.0" prefWidth="179.0" text="Duties" />
+            <Button mnemonicParsing="false" onAction="#contactInformationButtonOnAction" prefHeight="41.0" prefWidth="179.0" text="Contact Information" />
+            <Button mnemonicParsing="false" onAction="#passengerHistoryButtonOnAction" prefHeight="41.0" prefWidth="179.0" text="Passenger history" />
+            <Button mnemonicParsing="false" onAction="#addLostItemButtonOnAction" prefHeight="41.0" prefWidth="179.0" text="Add lost item" />
+            <Button mnemonicParsing="false" onAction="#incidentReportWrithingButtonOnAction" prefHeight="41.0" prefWidth="179.0" text="Incident report writing" />
+            <Button mnemonicParsing="false" onAction="#securityEquipmentCheckButtonOnAction" prefHeight="41.0" prefWidth="179.0" text="security equipment check" />
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane fx:id="welcomeAnchorPane" prefHeight="464.0" prefWidth="482.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="126.0" layoutY="238.0" prefHeight="95.0" prefWidth="360.0" text="Safety First, Security Always.">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
