@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="461.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cse.oop.courseprojects._2110657_2010677_2221555_1722112_group08_apbn.FxmlSecurityOfficerContackinfoScenePushpitaController">
+   <children>
+      <Label layoutX="257.0" layoutY="43.0" text="Contack Info">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TableView layoutX="37.0" layoutY="131.0" prefHeight="256.0" prefWidth="531.0">
+        <columns>
+          <TableColumn prefWidth="89.0" text="C1" />
+          <TableColumn prefWidth="107.0" text="C2" />
+            <TableColumn prefWidth="104.0" text="Column X" />
+            <TableColumn prefWidth="98.0" text="Column X" />
+            <TableColumn prefWidth="132.0" text="Column X" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -34,11 +34,12 @@ public class fxmlDashBoardSecurityOfficerPushpiController {
 
     @FXML
     void contactInformationButtonOnAction(ActionEvent event) {
-
+        loadPage("fxmlSecurityOfficerContackinfoScenePushpita");
     }
 
     @FXML
     void dutiesListButtonOnAction(ActionEvent event) {
+        loadPage("fxmlSecurityOfficerDutyTableScene");
 
     }
 
